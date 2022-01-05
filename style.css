@@ -1,0 +1,42 @@
+canvas{
+    margin-top: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 200px;
+    animation-name: canvasAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvasAnimation{
+from{box-shadow: 1px 1px 38px #3ddcf1;}
+to{box-shadow: 1px 1px 38px #e99803;}
+}
+
+body{
+    background-color: rgb(6, 152, 189);
+}
+
+h1{
+    background-color: rgb(211, 126, 14);
+}
+
+#Sketch{
+    color: rgb(51, 255, 0);
+    font-size:medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Score{
+
+    border: royalblue;
+    color: orange;
+    font-size: larger;
+    text-align: left;
+    font
+}
+#Timer{
+    font-size: larger;
+    border: royalblue;
+    color: orange;
+    text-align: right;
+}
+
